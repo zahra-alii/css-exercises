@@ -1,0 +1,15 @@
+/* SOLUTION 1 */
+.container > p {
+    background: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* SOLUTION 2 */
+.container .text {
+    background: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
