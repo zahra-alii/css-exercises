@@ -14,6 +14,8 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .profile-image {
@@ -40,25 +42,14 @@ button {
 }
 
 a {
+  /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
 }
 
-ul {
+.left-links ul, .right-links{
   list-style-type: none;
-}
-
-.left-links ul {
   display: flex;
   gap: 16px;
-  align-items: center;
-  justify-content: center;
-}
-
-.right-links {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: auto;
-  gap: 8px;
   align-items: center;
 }
